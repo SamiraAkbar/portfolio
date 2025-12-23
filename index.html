@@ -1,71 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Samira Portfolio</title>
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <!-- Main CSS -->
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <title>Samira Akbar | Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <!-- NAVBAR -->
-    <header class="navbar">
+<!-- ================= NAVBAR ================= -->
+<header class="navbar">
+  <div class="nav-left"><h3>SAMIRA_AKBAR</h3></div>
 
-        <div class="nav-left">
-            <nav>
-                <ul>
-                    <li class="active">Home</li>
-                    <li>Achievement</li>
-                    <li>Education</li>
-                    <li>Recent work</li>
-                </ul>
-            </nav>
-        </div>
+  <nav class="nav-center">
+    <a class="active" href="#home">Home</a>
+    <a href="#about">About Me</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#work">Recent Work</a>
+    <a href="#contact">Contact</a>
+  </nav>
 
-        <div class="nav-right">
-            <button class="contact-btn">Get In Touch</button>
+  <div class="nav-right">
+ <div class="icons">
+    
+    <button class="nav-btn">Get In Touch</button>
+                <img class="fb" src="assets/image/FB.png" alt="fb">
+                <img src="assets/image/in.png" alt="in">
+                <img src="assets/image/Email.png" alt="mail">
+                <img src="assets/image/git.png" alt="gh">
+            </div>   
+</div>
+</header>
 
-            <div class="icons">
-                <img class="fb" src="asscets\image\FB.png" alt="fb">
-                <img src="asscets\image\in.png" alt="in">
-                <img src="asscets\image\Email.png" alt="mail">
-                <img src="asscets\image\git.png" alt="gh">
-            </div>
-        </div>
+<!-- ================= HERO ================= -->
+<section id="home" class="hero">
+  <div class="hero-text">
+    <h1>SAMIRA AKBAR</h1>
+    <p>
+      A passionate Software Engineer driven by creativity and code.
+      I design smart, efficient, and user-focused digital solutions while
+      continuously learning new technologies to shape impactful innovations.
+    </p>
 
-    </header>
+    <div class="hero-buttons">
+      <button class="btn-primary">Let’s get started →</button>
+      <button class="btn-outline">Download CV →</button>
+    </div>
+  </div>
 
-    <!-- HERO SECTION -->
-    <section class="hero">
+  <div class="hero-image">
+    
+    <img src="assets/image/samira-cover-2.png" alt="Profile">
+  </div>
+</section>
 
-        <div class="hero-text">
-            <h1>SAMIRA AKBAR</h1>
+<!-- ================= ABOUT ================= -->
+<section id="about" class="about">
+  <h2>ABOUT ME</h2>
+  <p>
+  I am currently studying Software Engineering with a strong interest in web development, UI/UX design, and problem solving. I enjoy learning new technologies and turning ideas into visually appealing and functional products. I am passionate about creating innovative solutions that improve user experiences and simplify complex processes. Throughout my studies, I have focused on developing strong programming skills in C++, Java, and web technologies like HTML, CSS, and JavaScript. I am also exploring UI/UX principles to design interfaces that are not only visually attractive but also intuitive and user-friendly. My goal is to continuously learn and apply new tools and frameworks to build projects that have real-world impact, while collaborating with others and sharing knowledge to drive innovation forward.
+  </p>
+</section>
 
-            <p>
-                A passionate Software Engineer driven by creativity and code. 
-                I design smart, efficient, and user-focused digital solutions 
-                while continuously learning new technologies to shape impactful 
-                innovations for the future.
-            </p>
+<!-- ================= EDUCATION ================= -->
+<section id="education" class="education">
+  <h2>EDUCATION</h2>
 
-            <div class="btn-group">
-                <a href="#" class="btn primary">Let’s get started ></a>
-                <a href="#" class="btn outline">Download CV ></a>
-            </div>
-        </div>
+  <div class="edu-item">
+    <div class="edu-icon"><img src="assets\Logo\international-islamic-university-chittagong-seeklogo.png"></div>
+    <div>
+      <h3>B.Sc in Software Engineering</h3>
+      <span>International Islamic University Chittagong</span>
+      <p>2023 – Present</p>
+    </div>
+  </div>
 
-        <!-- IMAGE SIDE -->
-        <div class="hero-img">
-            <img src="asscets\image\Samira cover 2.png" alt="Samira">
-        </div>
+  <div class="edu-item">
+    <div class="edu-icon"><img src="assets\Logo\Seal_of_BAF_Shaheen_College_Chattogram.svg.png"></div>
+    <div>
+      <h3>Higher Secondary Certificate</h3>
+      <span>BAF Shaheen College Chattogram</span>
+      <p>2021 – 2022</p>
+    </div>
+  </div>
 
-    </section>
+  <div class="edu-item">
+    <div class="edu-icon"><img src="assets\Logo\Khawja-Ajmeri-High-School.png"></div>
+    <div>
+      <h3>Secondary School Certificate</h3>
+      <span>Khawja Ajmeri High School</span>
+      <p>2020 – 2021</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="skills">
+  <h2>SKILLS</h2>
+
+  <div class="skill">
+    <span>C / C++</span>
+    <div class="progress"><div style="width:80%"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>Java (Learning)</span>
+    <div class="progress"><div style="width:65%"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>Figma</span>
+    <div class="progress"><div style="width:85%"></div></div>
+  </div>
+
+  <div class="skill">
+    <span>HTML & CSS</span>
+    <div class="progress"><div style="width:90%"></div></div>
+  </div>
+</section>
+
+<!-- ================= RECENT WORK ================= -->
+<section id="work" class="work">
+  <h2>RECENT WORK</h2>
+
+  <div class="work-grid">
+    <div class="work-card">
+      <div class="work-img"><img src="assets\project image\portfolio.png" alt=""></div>
+      <h3>Portfolio Website</h3>
+      <p>Responsive personal portfolio using HTML & CSS.</p>
+    </div>
+
+    <div class="work-card">
+      <div class="work-img"><img src="assets\project image\Atm.webp" alt=""></div>
+      <h3>Mini ATM System</h3>
+      <p>C++ & Qt based ATM simulation project.</p>
+    </div>
+
+    <div class="work-card">
+      <div class="work-img"><img src="assets\project image\FUGMA.jpeg" alt=""></div>
+      <h3>UI Design</h3>
+      <p>Modern UI designs created in Figma.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" class="contact">
+  <div class="contact-left">
+    <h3>CONTACT</h3>
+    <p>LinkedIn/Samira_akbar</p>
+    <p>Email/samira.akbar.me@gmail.com</p>
+    <p>GitHub/SamiraAkbar</p>
+  </div>
+
+  <form class="contact-form">
+    <input type="text" placeholder="Name">
+    <input type="email" placeholder="Email">
+    <textarea placeholder="Message"></textarea>
+    <button>CONTACT NOW →</button>
+  </form>
+</section>
+
+<footer>
+  © 2025 Samira Akbar. All Rights Reserved.
+</footer>
+
+<script>
+  // Active link highlight
+  const sections = document.querySelectorAll("section");
+  const navLinks = document.querySelectorAll(".nav-center a");
+
+  window.addEventListener("scroll", () => {
+    let current = "";
+    sections.forEach(section => {
+      const sectionTop = section.offsetTop - 150;
+      if (pageYOffset >= sectionTop) {
+        current = section.getAttribute("id");
+      }
+    });
+
+    navLinks.forEach(link => {
+      link.classList.remove("active");
+      if (link.getAttribute("href") === "#" + current) {
+        link.classList.add("active");
+      }
+    });
+  });
+</script>
 
 </body>
 </html>
